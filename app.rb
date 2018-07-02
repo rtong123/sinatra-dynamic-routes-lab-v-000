@@ -37,7 +37,7 @@ class App < Sinatra::Base
     # binding.pry
     case @operation
     when "add"
-      return @number1.to_i + @number2.to_i
+      return "#{@number1.to_i + @number2.to_i}"
     when "subtract"
       return @number1.to_i - @number2.to_i
     when "multiply"
