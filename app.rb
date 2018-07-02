@@ -31,7 +31,7 @@ class App < Sinatra::Base
 
   get '/:operation/:number1/:number2' do
     @operation = params[:operation]
-    binding.pry
+    # binding.pry
     @number1 = params[:number1]
     @number2 = params[:number2]
     # binding.pry
